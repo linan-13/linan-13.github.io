@@ -1,0 +1,139 @@
+
+<html>
+<head>
+<title>Album</title>
+<style type="text/css">
+body{
+	width:100%;
+	height:100%;
+	 background:url(images/09.jpg);
+	 background-size:100%;
+	 font-size:16px;
+	 font-family:"黑体";
+}
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #F00;
+}
+a:active {
+	text-decoration: none;
+}
+.top{
+	font-size:80px;
+	font-weight:bold;
+}
+.navbar{
+	width:100%;
+	height:29px;
+	background:#006;
+	margin-top:10px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+.d1{
+	width:1008px;
+	height:29px;
+	margin:0 auto;
+}
+.d1 ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+.d1 ul li{
+	float:left;
+}
+.d1 li a{
+	padding-left:15px;
+	padding-right:15px;
+	display:block;
+	color:white;
+	line-height:29px;
+	text-decoration:none;
+}
+.d1 li a:hover{
+	background:#00F;
+}
+body{
+/*background:gray;*/
+}
+#wrap{
+	width:80%;
+	height:160px;
+	border:1px solid black;
+	position:relative;
+	margin:5px 10%;
+	background:#F5E0E3;
+	overflow:hidden;
+}
+#wrap ul{
+	margin:0px;
+	padding:0px;
+	position:absolute;
+}
+#wrap ul li{
+	list-style:none;
+	float:left;
+	margin:5px 10px;
+}
+#wrap ul li img{
+	width:200px;
+	height:150px;
+	cursor:pointer;
+}
+.direction{
+	width:120px;
+	margin:10px auto;
+}
+.direction img{
+	border:1px dotted pink;
+	cursor:pointer;
+}
+.active{
+	border:2px solid gray;
+}
+</style>
+<script type="text/javascript" src="showpic.js">
+</script>
+</head>
+<body onLoad="showpics()">
+<div class="top" style="margin-left:180px;"><a href="index.html">Home </a></div>
+<div class="navbar">
+<div class="d1">
+<ul> 
+  <li><a href="School.html">School</a></li>
+  <li><a href="Album.html">Album </a></li>
+  <li><a href="Resume.html">Resume</a></li>
+  <li><a href="Graduate.html">Graduate</a></li>
+  <li><a href="Ending.html">Ending </a></li>
+</ul>
+</div>
+</div>
+<div class="direction">
+<img src="images/left.png"  alt="" id="button1"/>
+<img src="images/right.png" alt="" id="button2"/>
+</div>
+<div id="wrap" align="center">
+<ul>
+<li><img src="images/02.jpg"alt="1" /></li>
+<li><img src="images/03.jpg" alt="2" /></li>
+<li><img src="images/04.jpg" alt="3"/></li>
+<li><img src="images/05.jpg" alt="4" /></li>
+<li><img src="images/06.jpg" alt="5" /></li>
+<li><img src="images/07.jpg" alt="6" /></li>
+<li><img src="images/08.jpg" alt="6" /></li>
+<li><img src="images/41.jpg" alt="6" /></li>
+<li><img src="images/42.jpg" alt="6" /></li>
+<li><img src="images/43.jpg" alt="6" /></li>
+<center>
+<div>
+</div>
+</center>
+</body>
+</html>
